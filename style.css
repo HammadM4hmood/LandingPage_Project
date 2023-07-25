@@ -41,11 +41,11 @@ a {
 
 button {
   color: whitesmoke;
-  background-color: rgb(64, 136, 231);
-  width: 100px;
-  border-radius: 2px;
-  height: 20px;
-  border: rgb(64, 136, 231);
+  background-color: #3882f6;
+  width: 80px;
+  border-radius: 5px;
+  height: 25px;
+  border: #3882f6;
 }
 
 .website_info {
@@ -71,4 +71,32 @@ button {
 }
 .margin {
   margin-left: 150px;
+}
+.text_head {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  margin: 20px 0px;
+}
+.box {
+  border: #3882f6 5px solid;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.replace {
+  width: 200px;
+  flex-wrap: wrap;
+}
+.info {
+  text-align: center;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  margin: 34px 0;
 }
